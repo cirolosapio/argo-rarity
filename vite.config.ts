@@ -26,10 +26,10 @@ export default defineConfig({
     // https://github.com/antfu/unplugin-auto-import
     AutoImport({
       imports: [
-        'vue',
-        'vue/macros',
         {
-          '@vueuse/core': ['useDark', 'useToggle'],
+          'vue/macros': ['$ref'],
+          'vue': ['watchEffect', 'onMounted'],
+          '@vueuse/core': ['useDark', 'useToggle', 'useStorage'],
           'vue-router/auto': VueRouterExports,
         },
       ],
