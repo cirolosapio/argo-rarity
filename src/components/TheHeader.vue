@@ -8,7 +8,7 @@
       <a
         icon-btn i-carbon-logo-github
         rel="noopener noreferrer"
-        href="https://github.com/heartbeatLV/rarity-ext"
+        href="https://github.com/heartbeatLV/argo-rarity"
         target="_blank"
         title="GitHub"
       />

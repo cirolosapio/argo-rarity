@@ -4,7 +4,7 @@ import type { Result, Search } from '~/types'
 const api = axios.create({
   baseURL: 'https://search2.raritysniper.com',
   headers: {
-    'x-typesense-api-key': import.meta.env.VITE_RARITY_KEY,
+    'x-typesense-api-key': import.meta.env.VITE_RARITY_SNIPER_KEY,
   },
 })
 
